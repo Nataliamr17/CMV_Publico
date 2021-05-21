@@ -19,19 +19,26 @@ nav li{
  }
     h1, h2{
         text-decoration: none;
-        color:#6C3483;
+        color: white;
         text-align: center;
     }
     h1:hover, h2:hover{
-        color: red;
+        color: #851928;
         transition-duration: 1.5s;
 
+    }
+    nav a{
+        text-decoration: none;
+        color: white;
+     }
+     nav a:hover{
+        color:#E2959F;
     }
 .container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
-        color:#6C3483;
+        color:#851928;
         text-align: center;
         font-size: 1.5rem;
         font-weight: bold;
@@ -47,7 +54,7 @@ nav li{
    width: 100%;
    height: 90%;
 }
-/* }
+}
 #img1:hover {
     filter: grayscale(80%); 
     transition-duration: 1.5s;
@@ -65,17 +72,18 @@ nav li{
     transform-style: preserve-3d;
     transition-duration: 1.5s;
 }
-#parrafo:hover{
-    animation: 3s infinite alternate slidein;
+#parrafo{
+    color: white;
+    text-align: center;
 
-  } */
+  }
 
 figcaption {
     transform: translate(-50%, -50);
     position: absolute;
     background-color: rgba(245, 245, 245, 0.829);
-    width: 35%;
+    width: 29%;
     text-align: center;
-    padding: 1em 0;
+    padding: 0.2em 0;
     float: initial;
 }

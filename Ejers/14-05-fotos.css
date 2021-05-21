@@ -1,35 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 body {
-    background-color: #EFEBE9 ; 
+    background-color: black ; 
     font-family: 'Pacifico', cursive;
 }
 nav {
-    background-color: #5B2C6F;
+    background-color: #851928;
 }
 nav li{
     display:inline-block;
     width:30%;
     padding:25px 30px;
-    background-color:#6C3483;
+    background-color:#851928;
     margin: 0px;
     text-align:center;
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
+    
  }
-    h1, h2{
-        text-decoration: none;
-        color:#6C3483;
-        text-align: center;
+ nav a{
+    text-decoration: none;
+    color: white;
+ }
+nav a:hover{
+    color:#E2959F;
+}
+h1, h2{
+    text-decoration: none;
+    color:white;
+    text-align: center;
     }
-    h1:hover, h2:hover{
-        color: red;
-        transition-duration: 1.5s;
+h1:hover, h2:hover{
+    color: #851928;
+    transition-duration: 1.5s;
 
     }
 .container {
         display: flex;
-        color:#6C3483;
+        color:#851928;
         text-align: center;
         font-size: 1.5rem;
         font-weight: bold;
@@ -60,7 +68,7 @@ nav li{
     transform-style: preserve-3d;
     transition-duration: 1.5s;
 }
-#parrafo:hover{
-    animation: 3s infinite alternate slidein;
-
+#parrafo{
+    color: white;
+    text-align: center;
   }
