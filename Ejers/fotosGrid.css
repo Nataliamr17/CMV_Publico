@@ -4,7 +4,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: black;
     font-family: 'Pacifico', cursive;
   }
   
@@ -30,6 +29,8 @@
   .lado {
     grid-column: 1 / span 1;
     grid-row: 3 / span 1;
+    background-color: #E2959F;
+    border-radius: 20px;
   }
   
   .contenido {
@@ -39,7 +40,7 @@
   
   .pie {
     border-style: solid;
-    border-color: aqua;
+    border-color: black;
     grid-column: 1 / span 4;
     grid-row: 4 / span 1;
   }
@@ -92,15 +93,7 @@
    width: 90%;
    height: 90%;
   }
-  /* figcaption {
-    transform: translate(-50%, -50);
-    position: absolute;
-    background-color: rgba(245, 245, 245, 0.829);
-    width: 35%;
-    text-align: center;
-    padding: 1em 0;
-    float: initial;
-  } */
+  
   #boton {
     color: white;
     font-size: 25px;
