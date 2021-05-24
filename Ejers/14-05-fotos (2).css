@@ -1,0 +1,57 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Pacifico', cursive;
+}
+body .marco {
+  display: grid;
+  grid-template-columns: 250px repeat(3, 1fr);
+  grid-template-rows: 100px 40px auto 40px;
+  grid-gap: 10px;
+  width: 100vw;
+  height: 100vh;
+}
+body .marco .encabezado {
+  grid-column: 1 / span 4;
+  grid-row: 1 / span 1;
+}
+body .marco .encabezado nav ul {
+  display: inline-block;
+  background-color: #851928;
+  width: 100%;
+}
+body .marco .encabezado nav ul li {
+  width: 100%;
+  padding: 25px 30px;
+  background-color: #851928;
+  margin: 0px;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+body .marco .encabezado nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+body .marco .migas {
+  grid-column: 1 / span 4;
+  grid-row: 2 / span 1;
+}
+body .marco .lado {
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+  background-color: #E2959F;
+  border-radius: 20px;
+}
+body .marco .contenido {
+  grid-column: 2 / span 3;
+  grid-row: 3 / span 1;
+}
+body .marco .pie {
+  border-style: solid;
+  border-color: black;
+  grid-column: 1 / span 4;
+  grid-row: 4 / span 1;
+}

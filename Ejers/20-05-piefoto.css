@@ -88,7 +88,12 @@ nav li{
         transform-style: preserve-3d;
         transition-duration: 1.5s;
     }
-    
+    #centrado {
+        position:absolute;
+    }
+    #debajo {
+        position: absolute;
+    }
 /*
  
 .container {

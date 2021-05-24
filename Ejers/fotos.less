@@ -1,0 +1,91 @@
+// /* modo dia-noche */
+// @colorBgDia:pink;
+// @colorBgNoche:gray;
+// @colorDia:black;
+// @colorNoche:white;
+
+// @tamFont:48px;
+// @modo:"noche";
+
+// body{
+//     background-color: if((@modo="noche"),@colorBgNoche,@colorBgDia);
+// }
+
+// h1{
+//     color:if((@modo="noche"),@colorNoche,@colorDia);
+//     font-size:@tamFont;
+// }
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+
+    .marco{
+        display: grid;
+        grid-template-columns: 250px repeat(3,1fr);
+        grid-template-rows: 100px 40px auto 40px;
+        grid-gap: 10px;
+        width: 100vw;
+        height: 100vh;
+
+        .encabezado{
+            grid-column: 1 / span 4;
+            grid-row: 1 / span 1;
+            nav{
+                ul{
+                    display: inline-block;
+                    background-color: #851928;
+                    width:100%;
+                    li{
+                        width:100%;
+                        padding:25px 30px;
+                        background-color:#851928;
+                        margin: 0px;
+                        text-align:center;
+                        color: white;
+                        font-size: 1.5rem;
+                        font-weight: bold;
+                        a{
+                            text-decoration: none;
+                            color: white;
+
+                        }
+
+                    }
+                }
+            }
+
+        }
+        .migas{
+            grid-column: 1 / span 4;
+            grid-row: 2 / span 1;
+
+        }
+        .lado{
+            grid-column: 1 / span 1;
+            grid-row: 3 / span 1;
+            background-color: #E2959F;
+            border-radius: 20px;
+            button{
+
+            }
+
+        }
+        .contenido{
+            grid-column: 2 / span 3;
+            grid-row: 3 / span 1;
+            h1{
+
+            }
+
+        }
+        .pie{
+            border-style: solid;
+            border-color: black;
+            grid-column: 1 / span 4;
+            grid-row: 4 / span 1;
+
+        }
+    }
+}
