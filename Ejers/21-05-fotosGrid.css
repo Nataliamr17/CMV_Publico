@@ -53,12 +53,15 @@
     text-decoration: none;
     color: white;
  }
+ nav a:hover{
+  color:#E2959F;
+}
   nav li{
     width:100%;
     padding:25px 30px;
     background-color:#851928;
     margin: 0px;
-    text-align:center;
+    text-align:left;
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
@@ -112,3 +115,4 @@
     background-color: white;
     color: black;
   }
+  
