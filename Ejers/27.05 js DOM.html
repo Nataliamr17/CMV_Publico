@@ -27,15 +27,13 @@ fecha: Mayo 2021
 
 	<!-- solo aquellos estilos que solo aplican a esta pagina -->
 	<style>
-		* {
-			font-family: 'Nunito', sans-serif;
-		}
-
 		body {
 			background: black;
 			color: white;
-			/* Azul al 10% */
+			font-family: 'Pacifico', cursive;
+
 		}
+
 		button {
 			height: 50px;
 			width: 200px;
@@ -44,6 +42,46 @@ fecha: Mayo 2021
 			border-radius: 15px;
 			margin-right: 20px;
 			margin-bottom: 30px;
+		}
+
+		nav ul {
+			display: inline-block;
+			background-color: #851928;
+			width: 100%;
+		}
+
+		nav a {
+			text-decoration: none;
+			color: white;
+		}
+
+		nav a:hover {
+			color: #E2959F;
+		}
+
+		nav li {
+			width: 100%;
+			padding: 25px 30px;
+			background-color: #851928;
+			margin: 0px;
+			text-align: left;
+			color: white;
+			font-size: 1.5rem;
+			font-weight: bold;
+		}
+
+		h1,
+		h2 {
+			text-decoration: none;
+			color: white;
+			text-align: center;
+		}
+
+		h1:hover,
+		h2:hover {
+			color: #851928;
+			transition-duration: 1.5s;
+
 		}
 	</style>
 
@@ -56,10 +94,16 @@ fecha: Mayo 2021
 <body>
 
 	<!-- cabecera de pagina -->
-	<header>
-		<h1>Ejercicios Javascript</h1>
-		<br />
-	</header>
+	<nav>
+		<ul>
+			<li><a href="/index.html">Inicio</a></li>
+		</ul>
+	</nav>
+
+
+	<h1>Ejercicios Javascript</h1>
+
+
 
 	<!-- bloque de contenido de la pagina -->
 	<main>
@@ -83,19 +127,19 @@ fecha: Mayo 2021
 
 	<script>
 
-	function myURL() {
-		let x = document.baseURI;
-		document.getElementById("url").innerHTML = x;
-	}
+		function myURL() {
+			let x = document.baseURI;
+			document.getElementById("url").innerHTML = x;
+		}
 
-	// function myHeight() {
-	// 	let y = "Available Height: " + screen.availHeight + "px";
-	// 	document.getElementById("height").innerHTML = y;
-	// }
-	function myHeight() {
-		let y = "Available Height: " + screen.height + "px";
-		document.getElementById("height").innerHTML = y;
-	}
+		// function myHeight() {
+		// 	let y = "Available Height: " + screen.availHeight + "px";
+		// 	document.getElementById("height").innerHTML = y;
+		// }
+		function myHeight() {
+			let y = "Available Height: " + screen.height + "px";
+			document.getElementById("height").innerHTML = y;
+		}
 	</script>
 </body>
 

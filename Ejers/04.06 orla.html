@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>Titulo en Etiqueta del Navegador</title>
+
+	<!-- una fuente de Google -->
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link href="/Ejers/04.06 estilos.css" rel="stylesheet" />
+
+	<!-- iconos u otros elementos externos -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- scripts personalizados Javascript o JQuery -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+		crossorigin="anonymous"></script>
+	<script src="/Ejers/04.06 orla2.js"></script>
+</head>
+
+
+<body onload="leerXML()">
+
+	<nav>
+		<ul>
+			<li><a href="/index.html">Inicio</a></li>
+		</ul>  
+	 </nav>
+
+		<h1>Cargar fotos desde un XML</h1>
+		
+		<!-- bloque de contenido de la pagina -->
+	<main>
+		<button type="button" onclick="onload(leerXML)">Muestra xml</button>
+		<button type="button" onclick="mostrarFotos()">Muestra fotos</button>
+		<button type="button" onclick="ocultarFotos()">Oculta fotos</button>
+				
+		<p>  XML original:</p>
+		<p id="mensaje"></p>
+		<p id="fotos"></p>
+		<br />
+	
+	
+	</main>
+
+	<footer></footer>
+
+</body>
+<!-- $('#mensaje').hide() -->
+</html>
