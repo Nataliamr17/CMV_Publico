@@ -1,118 +1,131 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
-*{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Pacifico', cursive;
-  }
-  
-  .marco {
+}
+
+body {
+    background-image: url("/assets/tierra.jpg");
+    font-family: 'Open Sans', sans-serif;
+}
+
+.marco {
     display: grid;
-    grid-template-columns: 250px repeat(3,1fr);
+    grid-template-columns: 250px repeat(3, 1fr);
     grid-template-rows: 100px 40px auto 40px;
     grid-gap: 10px;
     width: 100vw;
     height: 100vh;
-  }
-  
-  .encabezado {
+}
+
+.encabezado {
     grid-column: 1 / span 4;
     grid-row: 1 / span 1;
-  }
-  
-  .migas {
+}
+
+.migas {
     grid-column: 1 / span 4;
     grid-row: 2 / span 1;
-  }
-  
-  .lado {
+}
+
+.lado {
     grid-column: 1 / span 1;
     grid-row: 3 / span 1;
-    background-color: #E2959F;
+    background-color: #F8C471;
+    ;
     border-radius: 20px;
-  }
-  
-  .contenido {
+}
+
+.contenido {
     grid-column: 2 / span 3;
     grid-row: 3 / span 1;
-  }
-  
-  .pie {
-    border-style: solid;
-    border-color: black;
+}
+
+.pie {
     grid-column: 1 / span 4;
     grid-row: 4 / span 1;
-  }
-  nav ul{
+}
+
+nav ul {
     display: inline-block;
     background-color: #851928;
-    width:100%;
-  }
-  nav a{
+    width: 100%;
+}
+
+nav a {
     text-decoration: none;
     color: white;
- }
- nav a:hover{
-  color:#E2959F;
 }
-  nav li{
-    width:100%;
-    padding:25px 30px;
-    background-color:#851928;
+
+nav a:hover {
+    color: #873600;
+}
+
+nav li {
+    width: 100%;
+    padding: 25px 30px;
+    background-color: #F8C471;
     margin: 0px;
-    text-align:left;
+    text-align: left;
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
-  }
-  h1, h2{
-        text-decoration: none;
-        color:white;
-        text-align: center;
-  }
-  h1:hover, h2:hover{
-        color:#851928;
-        transition-duration: 1.5s;
+}
 
-    }
-  .container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        color:#851928;
-        text-align: center;
-        font-size: 1.5rem;
-        font-weight: bold;
-        box-sizing: border-box;
-        
-  }
-  .container div {
+h1,
+h2 {
+    text-decoration: none;
+    color: #F8C471;
+    text-align: center;
+}
+
+h1:hover,
+h2:hover {
+    color: #873600;
+    transition-duration: 1.5s;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    color: #873600;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.container div {
     box-sizing: border-box;
     padding: 2px;
     margin: 0px 100px 0px 0px;
-  }
-  .container img {
-   width: 90%;
-   height: 90%;
-  }
-  
-  #boton {
+}
+
+.container img {
+    width: 90%;
+    height: 90%;
+}
+
+#boton {
     color: white;
     font-size: 25px;
-    background-color: #851928;
+    background-color: #873600;
     height: 60px;
     width: 230px;
     border-radius: 25px;
     margin-top: 20px;
     margin-left: 8px;
-  }
-  .noche{
+}
+
+.noche {
     background-color: black;
     color: white;
-  }
-  .dia{
+}
+
+.dia {
     background-color: white;
     color: black;
-  }
-  
+}

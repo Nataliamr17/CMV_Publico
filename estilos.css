@@ -4,24 +4,37 @@
     padding: 10px;
     box-sizing: border-box;
 }
+
 body {
-    background-color:black ;
-    color: #851928 ;
+    background-image: url("/assets/tierra.jpg");
     font-family: 'Patrick Hand', cursive;
 }
+
 h1 {
-    color:#851928;
+    color: #F8C471;
     text-align: center;
     font-size: 3rem;
 }
+
+h2 {
+    color: #873600;
+    text-align: center;
+    font-size: 2.5rem;
+    text-decoration: overline;
+}
+
 a {
     font-size: 1.5rem;
-    color: #DE455A;
+    color: #873600;
     text-decoration: none;
-
 }
+
 #fila {
-    border-radius: 20px;
-    background-color: #E2959F;
+    border-radius: 10px;
+    background-color: #F8C471;
     width: 500px;
+}
+
+.row {
+    display: flex;
 }
