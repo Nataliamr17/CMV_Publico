@@ -1,18 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 * {
-    background-color: black;
     color: white;
-    font-family: 'Patrick Hand', cursive;
     font-size: 1rem;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("/assets/tierra.jpg");
 }
 
 button {
     color: white;
     font-size: 25px;
-    background-color: #851928;
+    background-color: #873600;
     height: 60px;
-    width: 230px;
+    width: 330px;
     border-radius: 25px;
     margin-top: 20px;
     margin-left: 8px;
@@ -33,38 +35,39 @@ button {
     height:300px;
 }
 nav {
-    background-color: #851928;
+    background-color: #F8C471;
 }
 nav ul{
     display: inline-block;
-    background-color: #851928;
+    background-color: #F8C471;
     width:100%;
   }
  nav li{
     width:100%;
     padding:25px 30px;
-    background-color:#851928;
+    background-color:#F8C471;
     margin: 0px;
     text-align:left;
     color: white;
     font-weight: bold;
+    list-style: none;
  }
  nav a{
     text-decoration: none;
     color: white;
-    background-color:#851928;
+    background-color:#F8C471;
     font-size: 1.5rem;
  }
 nav a:hover{
-    color:#E2959F;
+    color: #873600;
 }
 
 h1, h2{
     text-decoration: none;
-    color:white;
+    color: #F8C471;
     text-align: center;
     }
 h1:hover, h2:hover{
-    color: #851928;
+    color: #873600;
     transition-duration: 1.5s;
 }

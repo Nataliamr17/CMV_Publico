@@ -29,15 +29,13 @@ nav a:hover {
     color: #873600;
 }
 
-h1,
-h2 {
+h1,h2 {
     text-decoration: none;
     color: #F8C471;
     text-align: center;
 }
 
-h1:hover,
-h2:hover {
+h1:hover, h2:hover {
     color: #873600;
     transition-duration: 1.5s;
 }
@@ -54,6 +52,7 @@ h2:hover {
     box-sizing: border-box;
     padding: 2px;
     margin: 0px 0px 0px 0px;
+    display: flex;
 }
 
 .container img {

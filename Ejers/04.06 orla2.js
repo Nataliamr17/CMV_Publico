@@ -67,8 +67,7 @@ function mostrarFotos() {
     }
     content += "</div>"
     document.getElementById("fotos").innerHTML = content;
-    $('#mensaje').hide()
+    $('#mensaje').toggle();
 }
-function ocultarFotos(){
-    $('#fotos').hide()
-}
+
+

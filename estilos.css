@@ -38,3 +38,7 @@ a {
 .row {
     display: flex;
 }
+
+li {
+    list-style: none;
+}
