@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<orla>
+    <elemento>
+        <nombre>Interestellar</nombre>
+        <foto>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT_RccL1NBnzoF49rygF-O0YRB2-kIsi_u2OY4nhmV9hRCWbHok</foto>
+        <pie>Año 2014</pie>
+        <detalle>Ambientada en un futuro distópico donde la humanidad está luchando por sobrevivir, 
+            cuenta la historia de un grupo de astronautas que viajan a través de un agujero de gusano cerca de 
+            Saturno en busca de un nuevo hogar para la humanidad.</detalle>
+    </elemento>
+    <elemento>
+        <nombre>La llegada</nombre>
+        <foto>http://es.web.img3.acsta.net/r_1920_1080/pictures/16/10/18/16/59/275907.jpg</foto>
+        <pie>Año 2016</pie>
+        <detalle>Doce naves alienígenas de más de 450 metros de altura han llegado a la Tierra, situándose en
+         diversos puntos del planeta. El Gobierno de Estados Unidos contrata a una prestigiosa lingüista para
+          intentar conocer sus intenciones. </detalle>
+    </elemento>
+    <elemento>
+        <nombre>Coherence</nombre>
+        <foto>https://acropolisdelapalabra.files.wordpress.com/2016/04/coherence_poster_ingles.jpg</foto>
+        <pie>Año 2013</pie>
+        <detalle>En Finlandia, en 1923, el paso de un cometa hizo que los habitantes de un pueblo quedaran 
+        completamente desorientados; incluso una mujer denunció que el hombre que estaba en su casa no era su marido.
+         Décadas más tarde, un grupo de amigos recuerda este caso mientras cenan, brindan y se preparan para ver pasar un cometa... </detalle>
+    </elemento>
+    <elemento>
+        <nombre>Gravity</nombre>
+        <foto>https://acompasando.org/wp-content/uploads/2014/04/Gravity2-1.jpg</foto>
+        <pie>Año 2013</pie>
+        <detalle>La doctora Ryan Stone, una brillante ingeniera especializada en Medicina, está en su primera misión en 
+        un transbordador, con el veterano astronauta Matt Kowalsky, al mando de su último vuelo antes de retirarse. 
+        Pero en un paseo espacial aparentemente de rutina se desencadena el desastre.</detalle>
+    </elemento>
+    <elemento>
+        <nombre>The Martian</nombre>
+        <foto>https://es.web.img3.acsta.net/c_310_420/pictures/15/08/27/13/26/081921.jpg</foto>
+        <pie>Año 2015</pie>
+        <detalle>Durante una misión a Marte, el astronauta Mark Watney es dado por muerto y abandonado por la tripulación, 
+        que pone rumbo de vuelta a la Tierra. Pero Watney ha sobrevivido y se encuentra atrapado y solo en Marte. Con suministros escasos, 
+        deberá recurrir a su ingenio y a su instinto de supervivencia para encontrar la manera de comunicar a la Tierra que sigue vivo.</detalle>
+    </elemento>
+    <elemento>
+        <nombre>Tenet</nombre>
+        <foto>https://es.web.img3.acsta.net/pictures/20/01/08/12/06/2814322.jpg</foto>
+        <pie>Año 2020</pie>
+        <detalle>Una acción épica que gira en torno al espionaje internacional, los viajes en el tiempo y la evolución, 
+        en la que un agente secreto debe prevenir la Tercera Guerra Mundial.</detalle>
+    </elemento>
+    <elemento>
+        <nombre>La cabaña en el bosque</nombre>
+        <foto>https://es.web.img3.acsta.net/pictures/202/825/20282552_20131010130728797.jpg</foto>
+        <pie>Año 2011</pie>
+        <detalle>Cinco amigos universitarios van a pasar el fin de semana a una remota cabaña en un bosque siniestro. 
+        En el sótano encuentran una extraña colección de reliquias y, entre ellas, un diario que habla de la antigua
+         familia de psicópatas que ocupó la casa. Hasta aquí, crees que conoces la historia...</detalle>
+    </elemento>
+    <elemento>
+        <nombre>Origen</nombre>
+        <foto>https://es.web.img3.acsta.net/medias/nmedia/18/72/41/74/20198901.jpg</foto>
+        <pie>Año 2010</pie>
+        <detalle>Dom Cobb es un experto en apropiarse, durante el sueño, de los secretos del subconsciente ajeno. 
+        Su extraña habilidad le ha convertido en un hombre muy cotizado en el mundo del espionaje, pero también 
+        es un fugitivo. Su única oportunidad para cambiar de vida será hacer lo contrario: la incepción; implantar una idea en lugar de sustraerla. </detalle>
+    </elemento>
+    <elemento>
+        <nombre>Shutter Island</nombre>
+        <foto>https://es.web.img3.acsta.net/medias/nmedia/18/69/96/74/19239968.jpg</foto>
+        <pie>Año 2010</pie>
+        <detalle>Ambientada en 1954, Shutter Island cuenta lo que ocurre cuando dos policías viajan desde Boston 
+        hasta una isla donde se encuentra un hospital psiquiátrico, el Ashecliffe, para investigar la misteriosa 
+        desaparición de una asesina, Rachel Solando, que ha sido internada allí.</detalle>
+    </elemento>
+    <elemento>
+        <nombre>Memento</nombre>
+        <foto>https://es.web.img2.acsta.net/medias/nmedia/18/70/92/19/20080991.jpg</foto>
+        <pie>Año 2000</pie>
+        <detalle>Leonard es un ex investigador de seguros que padece amnesia anterógrada, enfermedad que le impide 
+        generar nuevos recuerdos y almacenarlos en su memoria. Lo único que recuerda es la violación y el asesinato 
+        de su esposa, hecho por el que desea tomar venganza y matar al asesino.</detalle>
+    </elemento>
+    <elemento>
+        <nombre>Nosotros</nombre>
+        <foto>https://es.web.img3.acsta.net/pictures/19/02/12/17/09/1724041.jpg</foto>
+        <pie>Año 2019</pie>
+        <detalle>Adelaide y Gabe Wilson son una pareja que decide llevar a sus hijos a su casa en la playa, esperando
+         pasar unas vacaciones y desconectar junto a unos amigos. Pero al llegar la noche, algo terrorífico les ocurre. 
+         Delante de la casa, aparecen cuatro personas.</detalle>
+    </elemento>
+    <elemento>
+        <nombre>El hoyo</nombre>
+        <foto>https://es.web.img3.acsta.net/pictures/19/09/17/17/00/0735463.jpg</foto>
+        <pie>Año 2019</pie>
+        <detalle>En el futuro, los prisioneros se alojan en celdas verticales, observando cómo los presos de las celdas 
+        superiores son alimentados mientras los de abajo mueren de hambre. Una jungla de supervivencia donde solo hay 
+        tres tipos de personas: los que están arriba, los que están abajo y los que deciden saltar, incapaces de soportar 
+        esa agonía por más tiempo.</detalle>
+    </elemento>
+    <elemento>
+        <nombre>El juego de Gerald</nombre>
+        <foto>https://es.web.img3.acsta.net/pictures/17/09/26/09/05/4116756.jpg</foto>
+        <pie>Año 2017</pie>
+        <detalle>Jessie y Gerald son un matrimonio maduro que viaja a una remota cabaña con la esperanza de revitalizar 
+        su deteriorada relación en un sitio apartado y tranquilo. Allí Gerald propone a su mujer un juego sexual: esposarla 
+        a la cama para incrementar las sensaciones. Pero cuando éste muere de un infarto, Jessie tendrá que luchar por su supervivencia.</detalle>
+    </elemento>
+    <elemento>
+        <nombre>The Box</nombre>
+        <foto>https://es.web.img3.acsta.net/medias/nmedia/18/70/09/00/19172859.jpg</foto>
+        <pie>Año 2009</pie>
+        <detalle> Arthur y Norma Lewis son un matrimonio que recibe, una noche, la visita de un misterioso desconocido que 
+        les da una pequeña caja con un botón y una oferta: ganar un millón de dólares si lo aprietan, aunque eso provoque
+         la muerte de alguien en algún lugar.</detalle>
+    </elemento>
+    <elemento>
+        <nombre>Matrix</nombre>
+        <foto>https://es.web.img2.acsta.net/pictures/210/201/21020166_20130717110427461.jpg</foto>
+        <pie>Año 1999</pie>
+        <detalle>Matrix narra la aventura de Neo, un joven hacker que es convocado por el movimiento de resistencia liderado 
+        por Morfeo, que lucha contra la dominación de los seres humanos por las máquinas. Morfeo le ofrece dos pastillas 
+        de diferentes colores: con una continuará en la ilusión, con la otra descubrirá la verdad.</detalle>
+    </elemento>
+    <elemento>
+        <nombre>Identidad</nombre>
+        <foto>https://es.web.img3.acsta.net/c_310_420/medias/nmedia/18/82/88/82/20076276.jpg</foto>
+        <pie>Año 2003</pie>
+        <detalle>Sorprendidos por una tormenta, diez extraños –una antigua estrella televisiva y su chófer, un policía que 
+        escolta a un asesino, una chica de compañía, un joven matrimonio y una pareja con un niño– se encuentran por casualidad 
+        en el Golden Palm Hotel, un motel situado en pleno desierto.</detalle>
+    </elemento>
+    <elemento>
+        <nombre>Looper</nombre>
+        <foto>https://es.web.img3.acsta.net/medias/nmedia/18/92/47/73/20250845.jpg</foto>
+        <pie>Año 2012</pie>
+        <detalle>En 2072, los asesinatos están terminantemente prohibidos y los objetivos son enviados a través de una máquina 
+        del tiempo al pasado, al año 2042, donde existe una red de sicarios, conocidos como Loopers, que se encargan de acabar
+         con ellos y deshacerse rápidamente de los cuerpos.</detalle>
+    </elemento>
+    <elemento>
+        <nombre>Código fuente</nombre>
+        <foto>https://es.web.img2.acsta.net/medias/nmedia/18/83/23/13/19706938.jpg</foto>
+        <pie>Año 2011</pie>
+        <detalle>Un héroe de guerra es enviado a través del tiempo, durante 8 minutos para intentar evitar que estalle una bomba 
+        alojada en un tren con dirección a Chicago. Tendrá varias oportunidades para evitar el desastre, mientras descubre la 
+        importancia de su misión.</detalle>
+    </elemento>
+    <elemento>
+        <nombre>Vivarium</nombre>
+        <foto>https://es.web.img3.acsta.net/pictures/20/03/24/14/53/1954433.jpg</foto>
+        <pie>Año 2019</pie>
+        <detalle>Una joven pareja visita una inmobiliaria para comprar una casa. Un extraño agente los acompaña a una nueva, 
+        misteriosa y peculiar urbanización para mostrarles una vivienda unifamiliar. Allí se quedarán atrapados en una 
+        laberíntica pesadilla.</detalle>
+    </elemento>
+    <elemento>
+        <nombre>Circle</nombre>
+        <foto>https://cinemagavia.es/wp-content/uploads/2019/03/circle-186650893-large.jpg</foto>
+        <pie>Año 2015</pie>
+        <detalle>Cincuenta personas despiertan en una habitación oscura, hasta que se percatan de 
+        que uno de ellos es asesinado cada dos minutos o al intentar escapar. Cuando reparan en que pueden elegir 
+        a quien quieren que muera primero, empiezan a surgir varios bandos según los diferentes valores personales.</detalle>
+    </elemento>
+</orla>
